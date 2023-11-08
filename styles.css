@@ -24,11 +24,6 @@ body{
     color: white;
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-}
-
 
 
 h1{
@@ -37,22 +32,25 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+header{
+    background-color:#EBFBFF;
+}
+
 .become{
-    font-size:1rem;
+    font-size:15px;
     background-color: rgb(255, 255, 255);
-    min-width:30%;
-    max-width: 30%;
-    margin: 0 auto;
+    min-width:55%;
+    max-width: 55%;
     border: 2px solid black;
-    color: white;
+    border-radius: 50px;
+    margin-left:70px;
     
 }
 
 .logo{
     width:275px;
-    max-width:50%;
-    min-width:50%;
-    justify-content: center;
+    max-width:3%;
+    min-width:30%;
   
 
 }
@@ -216,3 +214,12 @@ h3{
 .span{
     padding:20px;
 }
+
+@media (min-width: 1200px){
+    #sidebar{
+        display:none;
+    }
+
+}
+    
+
