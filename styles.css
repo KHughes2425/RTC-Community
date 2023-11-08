@@ -24,12 +24,28 @@ body{
     color: white;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 h1{
     font-size:3rem;
     text-align:center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.become{
+    font-size:1rem;
+    background-color: rgb(255, 255, 255);
+    min-width:30%;
+    max-width: 30%;
+    margin: 0 auto;
+    border: 2px solid black;
+    color: white;
+    
 }
 
 .logo{
